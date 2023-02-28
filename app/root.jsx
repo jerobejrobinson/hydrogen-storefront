@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
   useLoaderData,
 } from '@remix-run/react';
+import {Seo} from '@shopify/hydrogen'
 // import styles from './styles/app.css';
 import tailwind from './styles/tailwind-build.css';
 import favicon from '../public/favicon.svg';
@@ -44,6 +45,7 @@ export default function App() {
   return (
     <html lang="en">
       <head>
+        <Seo />
         <Meta />
         <Links />
       </head>
