@@ -19,6 +19,9 @@ export function Layout({children, title}) {
         >
           {children}
         </main>
+        <footer>
+          this is a footer
+        </footer>
       </div>
     );
   }
